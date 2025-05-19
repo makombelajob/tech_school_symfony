@@ -1,0 +1,204 @@
+{% extends 'base.html.twig'  %}
+{% block body %}
+    <main>
+        <section class="row" id="activity">
+            <div class="text-center my-3">
+                <h2 class="fs-1 text-uppercase my-3 text-primary">Nos activités</h2>
+            </div>
+            <div class="col-md-12" id="school-activity">
+                <div class="row justify-content-between">
+                    <article class="col-md-3 alert alert-primary mb-3 text-center" id="atom">
+                        <div>
+                            <svg class="py-3" width="100" height="100" fill="">
+                                <use href="{{ asset('images/sprites.svg') }}#atom"></use>
+                            </svg>
+                        </div>
+                        <div class="card-body">
+                            <h2 class="card-title fs-1">Titre</h2>
+                            <p class="card-text fs-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit,
+                                nemo.</p>
+                        </div>
+                    </article>
+
+                    <article class="col-md-3 alert alert-danger mb-3 text-center" id="game">
+                        <div>
+                            <svg class="py-3" width="100" height="100"
+                                 stroke="white">
+                                <use href="{{ asset('images/sprites.svg') }}#game"></use>
+                            </svg>
+                        </div>
+                        <div class="card-body">
+                            <h2 class="card-title fs-1">Titre</h2>
+                            <p class="card-text fs-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit,
+                                nemo.</p>
+                        </div>
+                    </article>
+
+                    <article class="col-md-3 alert alert-info mb-3 text-center" id="plane">
+                        <div>
+                            <svg class="py-3" width="100" height="100">
+                                <use href="{{ asset('images/sprites.svg') }}#plane"></use>
+                            </svg>
+                        </div>
+                        <div class="card-body">
+                            <h2 class="card-title fs-1">Titre</h2>
+                            <p class="card-text fs-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit,
+                                nemo.</p>
+                        </div>
+                    </article>
+                </div>
+                <div class="row justify-content-between">
+                    <article class="col-md-3 alert  alert-secondary mb-3 text-center" id="swim">
+                        <div>
+                            <svg class="py-3" width="100" height="100" fill="">
+                                <use href="{{ asset('images/sprites.svg') }}#swim"></use>
+                            </svg>
+                        </div>
+                        <div class="card-body">
+                            <h2 class="card-title fs-1">Titre</h2>
+                            <p class="card-text fs-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit,
+                                nemo.</p>
+                        </div>
+                    </article>
+                    <article class="col-md-3 alert alert-success mb-3 text-center" id="walk">
+                        <div>
+                            <svg class="py-3" width="100" height="100" fill="">
+                                <use href="{{ asset('images/sprites.svg') }}#walk"></use>
+                            </svg>
+                        </div>
+                        <div class="card-body">
+                            <h2 class="card-title fs-1">Titre</h2>
+                            <p class="card-text fs-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit,
+                                nemo.</p>
+                        </div>
+                    </article>
+                    <article class="col-md-3 alert alert-dark mb-3 text-center" id="swim2">
+                        <div>
+                            <svg class="py-3" width="100" height="100" fill="">
+                                <use href="{{ asset('images/sprites.svg') }}#swim"></use>
+                            </svg>
+                        </div>
+                        <div class="car-body">
+                            <h2 class="card-title fs-1">Titre</h2>
+                            <p class="car-text fs-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit,
+                                nemo.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section id="partenaire" class="row text-center g-3 justify-content-between">
+            <div class="col-12 my-3">
+                <h2 class="fs-1 text-uppercase my-3 text-primary">Nos parténaires</h2>
+            </div>
+            <div class="row g-3 justify-content-between">
+                <div class="col-md-4 col-lg-3  article">
+                    <div class="alert alert-secondary rounded-5">
+                        <figure class="">
+                            <img class="" src="{{ asset('images/partenaire/edu_connect_logo.png') }}" alt="logo d'un partenaire">
+                            <figcaption class="">
+                                <h3 class="fs-2">EduConnect</h3>
+                                <p class="fs-4">Technologie éducative.</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-3 my-3  article">
+                    <div class="alert alert-secondary rounded-5">
+                        <figure class="">
+                            <img class="" src="{{ asset('images/partenaire/edu_connect_logo.png') }}" alt="logo d'un partenaire">
+                            <figcaption class="m-0">
+                                <h3 class="fs-2">Livreo</h3>
+                                <p class="fs-4">Ressources pédagogiques.</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-3 my-3 article">
+                    <div class=" alert alert-secondary rounded-5 ">
+                        <figure class="">
+                            <img class="" src="{{ asset('images/partenaire/inno_class_logo.png') }}" alt="logo d'un partenaire">
+                            <figcaption class="">
+                                <h3 class="fs-2">InnoClass</h3>
+                                <p class="fs-4">Solutions innovantes.</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+            <div class="row g-3 justify-content-between">
+                <div class="col-md-4 col-lg-3  my-3 article">
+                    <div class="alert alert-secondary rounded-5">
+                        <figure class="">
+                            <img class="" src="{{ asset('images/partenaire/global_learn_logo.png') }}" alt="logo d'un partenaire">
+                            <figcaption class="">
+                                <h3 class="fs-2">GlobaLearn</h3>
+                                <p class="fs-4">Apprentissage interculturel.</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-3  my-3 article">
+                    <div class=" alert alert-secondary rounded-5">
+                        <figure class="">
+                            <img class="" src="{{ asset('images/partenaire/skill_craft_logo.png') }}" alt="logo d'un partenaire">
+                            <figcaption class="">
+                                <h3 class="fs-2">SkillCraft</h3>
+                                <p class="fs-4">Développement pratique.</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-3  my-3  article">
+                    <div class="alert alert-secondary rounded-5">
+                        <figure class="">
+                            <img class="" src="{{ asset('images/partenaire/campus_link_logo.png') }}" alt="logo d'un partenaire">
+                            <figcaption class="">
+                                <h3 class="fs-2">CampusLink</h3>
+                                <p class="fs-4">Ecole d'excellence.</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="equip" class="row">
+            <div class="col-12 text-center">
+                <h2 class="fs-1 text-uppercase my-3 text-primary">Notre équipe</h2>
+            </div>
+            <div class="col-11 m-auto">
+                <div class="row ms-4 justify-content-between m-auto">
+                    <article class="col-12 col-md-5 col-lg-3 alert alert-info m-auto mb-2">
+                        <figure class="row">
+                            <img class="col-6 col-md" src="{{ asset('images/equip/professor_chemistry.jpg') }}"
+                                 alt="Image du professeur de chimie">
+                            <figcaption class="col-6 m-auto">
+                                <h3>Professeur de chimie</h3>
+                                <h4>Esther Clair</h4>
+                            </figcaption>
+                        </figure>
+                    </article>
+                    <article class="col-12 col-md-5 col-lg-3 alert alert-success m-auto mb-2">
+                        <figure class="row">
+                            <img class="col-6 col-md" src="{{ asset('images/equip/professor_math.jpg') }}"
+                                 alt="L'image du professeur de Math">
+                            <figcaption class="col-6 m-auto">
+                                <h3>Professeur de Math</h3>
+                                <h4>Pauline Marie</h4>
+                            </figcaption>
+                        </figure>
+                    </article>
+                    <article class="col-12 col-md-5 col-lg-3 alert alert-primary m-auto mb-2">
+                        <figure class="row">
+                            <img class="col-6 col-md" src="{{ asset('images/equip/director.jpg') }}" alt="L'image du directeur">
+                            <figcaption class="col-6 m-auto">
+                                <h3 class="">Directeur</h3>
+                                <h4>Patrick Erick</h4>
+                            </figcaption>
+                        </figure>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+{% endblock %}
